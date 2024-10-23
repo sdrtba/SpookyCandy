@@ -598,7 +598,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: PLUGIN_YG_2;TMP_YG2;YandexGamePlatform;RU_YG2;InterstitialAdv;RewardedAdv
+    Standalone: PLUGIN_YG_2;TMP_YG2;YandexGamePlatform;RU_YG2;InterstitialAdv;RewardedAdv;Review;StickyAdv;EnvirData;Authorization;Leaderboards;Localization;AutoTranslateLangs;Storage;NJSON_YG2;NJSON_STORAGE_YG2
+    WebGL: PLUGIN_YG_2;YandexGamePlatform;TMP_YG2;NJSON_YG2;AutoTranslateLangs;EnvirData;InterstitialAdv;Leaderboards;Localization;Review;RewardedAdv;StickyAdv;Storage;Authorization
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

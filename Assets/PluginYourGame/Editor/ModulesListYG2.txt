@@ -1,2 +1,10 @@
+Authorization v1.0
+AutoTranslateLangs v1.0
+EnvirData v1.0
 InterstitialAdv v1.0
+Leaderboards v1.0
+Localization v1.0
+Review v1.0
 RewardedAdv v1.0
+StickyAdv v1.0
+Storage v1.0

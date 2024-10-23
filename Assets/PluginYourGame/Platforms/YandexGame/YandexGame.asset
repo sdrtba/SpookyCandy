@@ -15,7 +15,7 @@ MonoBehaviour:
   nameDefining: YandexGamePlatform
   applySettingsBySwitchPlatform: 1
   projectSettings:
-    showFirstAdv: 0
+    showFirstAdv: 1
     interAdvInterval: 60
     postponeCallByFail: 0
     selectWebGLTemplate: 1
