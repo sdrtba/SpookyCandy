@@ -18,6 +18,7 @@ public class Candy : MonoBehaviour
     [SerializeField] private CandyType type;
     [SerializeField] private float force;
     [SerializeField] private float maxTorque;
+    private float _collisionTime = 0.02f;
     private Rigidbody2D _rb;
 
     private void Start()
@@ -33,8 +34,42 @@ public class Candy : MonoBehaviour
         if (force > 5) force = 5;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.tag == "Basket")
+        {
+            switch (type)
+            {
+                case CandyType.Base:
+                    OnPickup?.Invoke(1);
+                    break;
+                case CandyType.Bomb:
+                    SoundManager.instance.PlayAudioClip(boomClip, transform, boomClipVolume);
+                    OnHPChange?.Invoke(-1);
+                    OnPickup?.Invoke(-1);
+                    break;
+                case CandyType.Health:
+                    OnHPChange?.Invoke(1);
+                    OnPickup?.Invoke(1);
+                    break;
+            }
+            Destroy(gameObject);
+        }
+        else if (collision.tag == "Floor")
+        {
+            if (type != CandyType.Bomb) OnHPChange?.Invoke(-1);
+            Destroy(gameObject);
+        }
+    }*/
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (_collisionTime > 0)
+        {
+            _collisionTime -= Time.deltaTime;
+            return;
+        }
+
         if (collision.tag == "Basket")
         {
             switch (type)

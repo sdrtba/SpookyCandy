@@ -841,6 +841,7 @@ GameObject:
   - component: {fileID: 1210386515}
   - component: {fileID: 1210386517}
   - component: {fileID: 1210386518}
+  - component: {fileID: 1210386519}
   - component: {fileID: 1210386514}
   m_Layer: 0
   m_Name: Basket
@@ -923,7 +924,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4, z: 0}
-  m_LocalScale: {x: 1.5, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -963,17 +964,17 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.48725086, y: 0.50043654}
-  - {x: -0.48121995, y: -0.0027489662}
-  - {x: -0.401778, y: -0.4576745}
-  - {x: 0.4246663, y: -0.45894098}
-  - {x: 0.48077488, y: 0.00013303757}
-  - {x: 0.49269995, y: 0.50098157}
+  - {x: -0.42394724, y: 0.4945929}
+  - {x: -0.41304684, y: 0.0030944347}
+  - {x: -0.40956926, y: -0.35638857}
+  - {x: 0.4246663, y: -0.35375977}
+  - {x: 0.4242886, y: 0.00792408}
+  - {x: 0.43653005, y: 0.50098157}
   - {x: 0.49952903, y: 0.5003395}
   - {x: 0.5016419, y: -0.5043249}
   - {x: -0.5021917, y: -0.50249624}
   - {x: -0.50080556, y: 0.49977517}
-  - {x: -0.48659804, y: 0.500617}
+  - {x: -0.42329445, y: 0.49866915}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1010,7 +1011,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.18}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1021,8 +1022,35 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.09}
+  m_Size: {x: 0.55, y: 0.66}
   m_EdgeRadius: 0
+--- !u!50 &1210386519
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210386513}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1251632898
 GameObject:
   m_ObjectHideFlags: 0
