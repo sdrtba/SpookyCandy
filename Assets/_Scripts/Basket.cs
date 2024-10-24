@@ -4,6 +4,7 @@ public class Basket : MonoBehaviour
 {
     private float _xPos;
     private Rigidbody2D _rb;
+    private float _border = 8f;
 
     private void Start()
     {
@@ -15,6 +16,9 @@ public class Basket : MonoBehaviour
     private void Update()
     {
         _xPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+
+        if (_xPos < -_border ) _xPos = -_border;
+        else if (_xPos > _border ) _xPos = _border;
 
         transform.position = new Vector2(_xPos, transform.position.y);
     }

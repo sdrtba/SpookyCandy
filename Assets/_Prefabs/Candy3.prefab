@@ -163,6 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boomClip: {fileID: 8300000, guid: d8ba7d4f1b4553e4b88e3da95b5d913e, type: 3}
   boomClipVolume: 1
+  value: -1
   type: 1
   force: 3
   maxTorque: 2

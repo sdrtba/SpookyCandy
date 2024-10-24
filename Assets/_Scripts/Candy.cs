@@ -15,6 +15,7 @@ public class Candy : MonoBehaviour
 
     [SerializeField] private AudioClip boomClip;
     [Range(0f,1f)][SerializeField] private float boomClipVolume;
+    [SerializeField] private int value;
     [SerializeField] private CandyType type;
     [SerializeField] private float force;
     [SerializeField] private float maxTorque;
@@ -72,19 +73,15 @@ public class Candy : MonoBehaviour
 
         if (collision.tag == "Basket")
         {
+            OnPickup?.Invoke(value);
             switch (type)
             {
-                case CandyType.Base:
-                    OnPickup?.Invoke(1);
-                    break;
                 case CandyType.Bomb:
                     SoundManager.instance.PlayAudioClip(boomClip, transform, boomClipVolume);
                     OnHPChange?.Invoke(-1);
-                    OnPickup?.Invoke(-1);
                     break;
                 case CandyType.Health:
                     OnHPChange?.Invoke(1);
-                    OnPickup?.Invoke(1);
                     break;
             }
             Destroy(gameObject);
