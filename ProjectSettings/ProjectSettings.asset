@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 350611597a462cc428de5e467e7f1171
+  productGUID: 29a06b18fea8f7548a62304acf26d912
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Spooky
+  productName: SpookyCandy
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -575,14 +575,14 @@ PlayerSettings:
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 32
-  webGLExceptionSupport: 2
+  webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
   webGLDataCaching: 1
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: PROJECT:YandexGame
+  webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 0
@@ -598,8 +598,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: PLUGIN_YG_2;TMP_YG2;YandexGamePlatform;RU_YG2;InterstitialAdv;RewardedAdv;Review;StickyAdv;EnvirData;Authorization;Leaderboards;Localization;AutoTranslateLangs;Storage;NJSON_YG2;NJSON_STORAGE_YG2
-    WebGL: PLUGIN_YG_2;YandexGamePlatform;TMP_YG2;NJSON_YG2;AutoTranslateLangs;EnvirData;InterstitialAdv;Leaderboards;Localization;Review;RewardedAdv;StickyAdv;Storage;Authorization
+    Standalone: PLUGIN_YG_2;YandexGamePlatform;TMP_YG2;NJSON_YG2
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -631,14 +630,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Spooky
+  metroPackageName: SpookyCandy
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Spooky
+  metroApplicationDescription: SpookyCandy
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
