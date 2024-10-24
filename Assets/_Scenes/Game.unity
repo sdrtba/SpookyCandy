@@ -425,11 +425,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1206301190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -750, y: 450}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 300, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &791538296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1850773424, guid: a920843fc3dc98841beb0f9082194912, type: 3}
+  m_Sprite: {fileID: -1410321930, guid: ae24e384d9309c34faea6fd085f5dcaa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 122023395, guid: a920843fc3dc98841beb0f9082194912, type: 3}
+  m_Sprite: {fileID: 69297266, guid: ae24e384d9309c34faea6fd085f5dcaa, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -655,11 +655,11 @@ RectTransform:
   - {fileID: 1672838504}
   m_Father: {fileID: 1206301190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 800, y: 450}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -50, y: -50}
   m_SizeDelta: {x: 160, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1136263976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,7 +902,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 827855365, guid: f3397950e9b8df54fa38783051c86453, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -964,17 +964,24 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.42394724, y: 0.4945929}
-  - {x: -0.41304684, y: 0.0030944347}
-  - {x: -0.40956926, y: -0.35638857}
-  - {x: 0.4246663, y: -0.35375977}
-  - {x: 0.4242886, y: 0.00792408}
-  - {x: 0.43653005, y: 0.50098157}
-  - {x: 0.49952903, y: 0.5003395}
-  - {x: 0.5016419, y: -0.5043249}
-  - {x: -0.5021917, y: -0.50249624}
-  - {x: -0.50080556, y: 0.49977517}
-  - {x: -0.42329445, y: 0.49866915}
+  - {x: -1.5966042, y: 1.6600404}
+  - {x: -1.6002966, y: 1.5493361}
+  - {x: -2.1832597, y: 0.7452788}
+  - {x: -2.222738, y: -0.6410153}
+  - {x: -1.1243304, y: -1.4687337}
+  - {x: 1.4022815, y: -1.4257164}
+  - {x: 2.1596217, y: -0.72021496}
+  - {x: 2.2073038, y: 0.77687955}
+  - {x: 1.5467093, y: 1.6844515}
+  - {x: 1.6769918, y: 1.7218074}
+  - {x: 2.4347901, y: 0.843813}
+  - {x: 2.3954523, y: -0.87717164}
+  - {x: 1.3715225, y: -1.7238392}
+  - {x: -1.2230873, y: -1.7280202}
+  - {x: -2.3764799, y: -0.7449234}
+  - {x: -2.3730245, y: 0.75427717}
+  - {x: -1.8080295, y: 1.6532078}
+  - {x: -1.5959512, y: 1.6761314}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1011,7 +1018,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0838477, y: -0.24330807}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1022,7 +1029,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.55, y: 0.66}
+  m_Size: {x: 2.16706, y: 1.1466162}
   m_EdgeRadius: 0
 --- !u!50 &1210386519
 Rigidbody2D:
